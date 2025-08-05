@@ -4,7 +4,13 @@ kind of like HELM https://crfm.stanford.edu/helm/, but for science specific task
 check out https://pub.sakana.ai/ai-scientist-v2/paper/paper.pdf 
 we want to observe where it worked well, where it failed, and design benchmark collection for it
 
-i was thinking paperbench's approach works quite well 
+i was thinking paperbench's approach works quite well with LLM judges (https://openai.com/index/paperbench/) and we can take inspo from it. 
+
+they benchmarked with LLM judge
+then i was thinking what we could do is get human ratings too, from like 3 experts. and then compare correlation between humans and LLMs+humans in their judge rankings
+
+
+
 
 <more info>
 # Sakana AI's research portfolio reveals nature-inspired breakthrough
